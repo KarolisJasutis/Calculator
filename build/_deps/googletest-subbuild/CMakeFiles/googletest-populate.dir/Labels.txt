@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/a5068288cf348b062f00f85346128a05/googletest-populate.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/f5d4bb4b1cb0618898f98a89d70def7a/googletest-populate-complete.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-build.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-configure.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-download.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-install.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-mkdir.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-patch.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-test.rule
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-update.rule

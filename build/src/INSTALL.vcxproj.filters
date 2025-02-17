@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\CMakeFiles\fca4adb43ea0e9adba1e0a1b8361bde1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BEC98221-CBF9-39BD-B3FA-C6467953ADAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

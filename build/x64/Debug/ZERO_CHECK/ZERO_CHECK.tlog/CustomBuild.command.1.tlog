@@ -1,0 +1,10 @@
+^C:\USERS\KAROL\DOCUMENTS\GITHUB\ARCHITEKTURAPROJECT\CALCULATOR\BUILD\CMAKEFILES\0F109950C251585995CC8EAE9E7BE358\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator -BC:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/Calculator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

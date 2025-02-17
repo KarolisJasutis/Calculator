@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/a5068288cf348b062f00f85346128a05/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/f5d4bb4b1cb0618898f98a89d70def7a/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-subbuild/CMakeFiles/483cd15bbfa47aa67947380edc3dd640/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
