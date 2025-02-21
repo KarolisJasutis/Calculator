@@ -6,7 +6,10 @@ C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/src/CMakeFi
 C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/src/CMakeFiles/calculator_app.dir
 C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/src/CMakeFiles/RUN_TESTS.dir
 C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/src/CMakeFiles/INSTALL.dir
-C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/test_calculator.dir
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/TestSum.dir
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/TestSub.dir
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/TestMult.dir
+C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/TestDiv.dir
 C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/RUN_TESTS.dir
 C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/CMakeFiles/INSTALL.dir
 C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/_deps/googletest-build/CMakeFiles/RUN_TESTS.dir

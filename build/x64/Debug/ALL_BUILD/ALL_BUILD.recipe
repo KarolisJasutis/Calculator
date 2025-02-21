@@ -5,10 +5,19 @@
       <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\src\Debug\calculator_app.exe</FullPath>
+      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\TestDiv.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\test_calculator.exe</FullPath>
+      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\TestMult.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\TestSub.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\TestSum.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\src\Debug\calculator_app.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\x64\Debug\ALL_BUILD</FullPath>

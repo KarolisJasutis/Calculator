@@ -1,5 +1,4 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -21,8 +20,5 @@
                 }
             }
         ]
-    },
-    "files.associations": {
-        "iostream": "cpp"
     }
 }

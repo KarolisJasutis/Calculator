@@ -276,7 +276,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\main.cpp" />
+    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\node.cpp" />
+    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\sum.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
