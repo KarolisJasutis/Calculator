@@ -30,3 +30,6 @@ add_executable(TestDiv TestDiv.cpp)
 target_link_libraries(TestDiv gtest_main calculator)
 add_test(NAME DivTests COMMAND TestDiv)
 
+add_executable(TestExpr TestExpr.cpp)
+target_link_libraries(TestExpr gtest_main calculator)
+add_test(NAME ExprTests COMMAND TestExpr)

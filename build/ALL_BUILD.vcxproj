@@ -178,6 +178,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{4A35C710-B346-37C0-B9AD-6C661958C91E}</Project>
       <Name>TestDiv</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\TestExpr.vcxproj">
+      <Project>{9BC09962-1FC6-344C-8417-EFD7A8E4C42A}</Project>
+      <Name>TestExpr</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\TestMult.vcxproj">
       <Project>{E594AF95-DC07-3C2D-9E7B-BAB8A4AF8B2C}</Project>
       <Name>TestMult</Name>

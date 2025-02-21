@@ -1,5 +1,6 @@
 #include "mult.h"
 
+
 Mult::Mult(INode* l, INode* r) : left(l), right(r) {}
 
 Mult::~Mult() {

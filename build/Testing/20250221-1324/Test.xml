@@ -19,17 +19,51 @@
 	ProcessorCacheSize="64"
 	NumberOfLogicalCPU="16"
 	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="34855"
+	TotalVirtualMemory="35844"
 	TotalPhysicalMemory="32679"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3393"
+	ProcessorClockFrequency="3396"
 	>
 	<Testing>
-		<StartDateTime>Feb 21 15:35 FLE Standard Time</StartDateTime>
-		<StartTestTime>1740144932</StartTestTime>
-		<TestList/>
-		<EndDateTime>Feb 21 15:35 FLE Standard Time</EndDateTime>
-		<EndTestTime>1740144932</EndTestTime>
+		<StartDateTime>Feb 21 19:16 FLE Standard Time</StartDateTime>
+		<StartTestTime>1740158169</StartTestTime>
+		<TestList>
+			<Test>./tests/ExprTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>ExprTests</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/ExprTests</FullName>
+			<FullCommandLine>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\TestExpr.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0331102</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\tests\Debug\TestExpr.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylUdtKAzEQfc9XzGMX3KXqkwsKVesFRKQXfGhKSdOxjU0zayax+vduuqVYwQs4TzOTk3PmzPSic8bNYaWMa2Xw5GkFF6UcMnqWS+XJykvScYUusLw24SZOZcfrhQm4DNGrB0/PqIO8UFZHqwJ5OY3GzuRkhhXLOdHcYkAOOXv9qZSbMmWTJF1oLUanuxhDbzvXISRMM9c251iLF2KU72IM15amyjbv6F6NJ5dGBsaQx+oL+DNn963yg7oSI+gN72ET4123OFdsdKqQ2ZAT/1xN0mWZmBNnoauqdZKVgN6TL5NqjccZ4EtU1oR3oCcIC2SEV2UjcikAPFHIz3TN2cpEmvZxYfQCDJdw3K4bh0e1Fbjq3N51L3+yAq02rDj7fTMNEAIFZTPxt7UHVD6f0drtH/W7Y4JXrtjXqT08dPr9xkN7g+Vi31nDcADWcFraFC2ty7+ZF6L+vYUNuv2B+ABMH//F====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 21 19:16 FLE Standard Time</EndDateTime>
+		<EndTestTime>1740158169</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

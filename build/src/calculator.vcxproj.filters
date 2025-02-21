@@ -16,6 +16,9 @@
     <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\div.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\expressiontree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\CMakeLists.txt" />

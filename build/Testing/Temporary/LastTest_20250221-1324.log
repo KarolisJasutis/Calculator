@@ -1,3 +1,37 @@
-Start testing: Feb 21 15:35 FLE Standard Time
+Start testing: Feb 21 19:16 FLE Standard Time
 ----------------------------------------------------------
-End testing: Feb 21 15:35 FLE Standard Time
+5/5 Testing: ExprTests
+5/5 Test: ExprTests
+Command: "C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests/Debug/TestExpr.exe"
+Directory: C:/Users/karol/Documents/GitHub/ArchitekturaProject/Calculator/build/tests
+"ExprTests" start time: Feb 21 19:16 FLE Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExprTest
+[ RUN      ] ExprTest.BasicExpression
+C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\tests\TestExpr.cpp(9): error: Expected equality of these values:
+  root->calc()
+    Which is: 30
+  12
+[  FAILED  ] ExprTest.BasicExpression (0 ms)
+[----------] 1 test from ExprTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ExprTest.BasicExpression
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"ExprTests" end time: Feb 21 19:16 FLE Standard Time
+"ExprTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 21 19:16 FLE Standard Time
