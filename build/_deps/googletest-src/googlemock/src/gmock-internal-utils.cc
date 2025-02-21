@@ -41,10 +41,8 @@
 #include <cctype>
 #include <cstdint>
 #include <cstring>
-#include <iostream>
 #include <ostream>  // NOLINT
 #include <string>
-#include <utility>
 #include <vector>
 
 #include "gmock/gmock.h"
@@ -89,7 +87,7 @@ GTEST_API_ std::string ConvertIdentifierNameToWords(const char* id_name) {
                                  (!IsDigit(prev_char) && IsDigit(*p));
 
     if (IsAlNum(*p)) {
-      if (starts_new_word && !result.empty()) result += ' ';
+      if (starts_new_word && result != "") result += ' ';
       result += ToLower(*p);
     }
   }
@@ -200,10 +198,6 @@ GTEST_API_ void IllegalDoDefault(const char* file, int line) {
       "the variable in various places.");
 }
 
-constexpr char UndoWebSafeEncoding(char c) {
-  return c == '-' ? '+' : c == '_' ? '/' : c;
-}
-
 constexpr char UnBase64Impl(char c, const char* const base64, char carry) {
   return *base64 == 0 ? static_cast<char>(65)
          : *base64 == c
@@ -212,14 +206,13 @@ constexpr char UnBase64Impl(char c, const char* const base64, char carry) {
 }
 
 template <size_t... I>
-constexpr std::array<char, 256> UnBase64Impl(std::index_sequence<I...>,
+constexpr std::array<char, 256> UnBase64Impl(IndexSequence<I...>,
                                              const char* const base64) {
-  return {
-      {UnBase64Impl(UndoWebSafeEncoding(static_cast<char>(I)), base64, 0)...}};
+  return {{UnBase64Impl(static_cast<char>(I), base64, 0)...}};
 }
 
 constexpr std::array<char, 256> UnBase64(const char* const base64) {
-  return UnBase64Impl(std::make_index_sequence<256>{}, base64);
+  return UnBase64Impl(MakeIndexSequence<256>{}, base64);
 }
 
 static constexpr char kBase64[] =

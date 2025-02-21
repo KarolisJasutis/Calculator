@@ -42,16 +42,10 @@
 #ifndef GOOGLETEST_INCLUDE_GTEST_INTERNAL_GTEST_FILEPATH_H_
 #define GOOGLETEST_INCLUDE_GTEST_INTERNAL_GTEST_FILEPATH_H_
 
-#include <string>
-#include <utility>
-
-#include "gtest/internal/gtest-port.h"
 #include "gtest/internal/gtest-string.h"
 
 GTEST_DISABLE_MSC_WARNINGS_PUSH_(4251 \
 /* class A needs to have dll-interface to be used by clients of class B */)
-
-#if GTEST_HAS_FILE_SYSTEM
 
 namespace testing {
 namespace internal {
@@ -71,18 +65,13 @@ class GTEST_API_ FilePath {
  public:
   FilePath() : pathname_("") {}
   FilePath(const FilePath& rhs) : pathname_(rhs.pathname_) {}
-  FilePath(FilePath&& rhs) noexcept : pathname_(std::move(rhs.pathname_)) {}
 
-  explicit FilePath(std::string pathname) : pathname_(std::move(pathname)) {
+  explicit FilePath(const std::string& pathname) : pathname_(pathname) {
     Normalize();
   }
 
   FilePath& operator=(const FilePath& rhs) {
     Set(rhs);
-    return *this;
-  }
-  FilePath& operator=(FilePath&& rhs) noexcept {
-    pathname_ = std::move(rhs.pathname_);
     return *this;
   }
 
@@ -227,7 +216,5 @@ class GTEST_API_ FilePath {
 }  // namespace testing
 
 GTEST_DISABLE_MSC_WARNINGS_POP_()  //  4251
-
-#endif  // GTEST_HAS_FILE_SYSTEM
 
 #endif  // GOOGLETEST_INCLUDE_GTEST_INTERNAL_GTEST_FILEPATH_H_

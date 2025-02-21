@@ -178,7 +178,7 @@ TEST_P(DerivedTest, DoesBlah) {
 #include <utility>
 
 #include "gtest/internal/gtest-internal.h"
-#include "gtest/internal/gtest-param-util.h"  // IWYU pragma: export
+#include "gtest/internal/gtest-param-util.h"
 #include "gtest/internal/gtest-port.h"
 
 namespace testing {
@@ -407,7 +407,7 @@ internal::CartesianProductHolder<Generator...> Combine(const Generator&... g) {
   return internal::CartesianProductHolder<Generator...>(g...);
 }
 
-// ConvertGenerator() wraps a parameter generator in order to cast each produced
+// ConvertGenerator() wraps a parameter generator in order to cast each prduced
 // value through a known type before supplying it to the test suite
 //
 // Synopsis:
@@ -449,8 +449,7 @@ internal::ParamConverterGenerator<T> ConvertGenerator(
 
 #define TEST_P(test_suite_name, test_name)                                     \
   class GTEST_TEST_CLASS_NAME_(test_suite_name, test_name)                     \
-      : public test_suite_name,                                                \
-        private ::testing::internal::GTestNonCopyable {                        \
+      : public test_suite_name, private ::testing::internal::GTestNonCopyable {\
    public:                                                                     \
     GTEST_TEST_CLASS_NAME_(test_suite_name, test_name)() {}                    \
     void TestBody() override;                                                  \
@@ -469,7 +468,7 @@ internal::ParamConverterGenerator<T> ConvertGenerator(
               ::testing::internal::CodeLocation(__FILE__, __LINE__));          \
       return 0;                                                                \
     }                                                                          \
-    GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED static int gtest_registering_dummy_; \
+    static int gtest_registering_dummy_ GTEST_ATTRIBUTE_UNUSED_;               \
   };                                                                           \
   int GTEST_TEST_CLASS_NAME_(test_suite_name,                                  \
                              test_name)::gtest_registering_dummy_ =            \
@@ -514,8 +513,8 @@ internal::ParamConverterGenerator<T> ConvertGenerator(
         ::testing::internal::DefaultParamName<test_suite_name::ParamType>,   \
         DUMMY_PARAM_))))(info);                                              \
   }                                                                          \
-  GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED static int                           \
-      gtest_##prefix##test_suite_name##_dummy_ =                             \
+  static int gtest_##prefix##test_suite_name##_dummy_                        \
+      GTEST_ATTRIBUTE_UNUSED_ =                                              \
           ::testing::UnitTest::GetInstance()                                 \
               ->parameterized_test_registry()                                \
               .GetTestSuitePatternHolder<test_suite_name>(                   \

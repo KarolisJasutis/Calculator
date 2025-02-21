@@ -7,6 +7,15 @@
     <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\mult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\div.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\karol\Documents\GitHub\ArchitekturaProject\Calculator\src\CMakeLists.txt" />
