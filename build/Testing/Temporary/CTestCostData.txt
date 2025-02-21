@@ -2,5 +2,5 @@ SumTests 11 0.0242356
 SubTests 10 0.0221506
 MultTests 11 0.0197367
 DivTests 11 0.020695
-ExprTests 2 0.034656
+ExprTests 3 0.0340003
 ---

@@ -4,7 +4,6 @@
 #include "mult.h"
 #include "div.h"
 #include <cctype>  
-#include <stdexcept>
 #include <iostream>
 #include <sstream>
 
@@ -97,15 +96,10 @@ INode * ExpressionTree::NumPar() {
     } else if (current == '(') {
         advance();
         INode* expr = Parser();
-        if (peek() == ')') {
-            advance();
-        } else {
-            throw std::runtime_error("Mismatched parentheses");
-        }
+        advance();
+
         return expr;
     }
-
-    throw std::runtime_error("Unexpected character in factor");
 }
 
 char ExpressionTree::peek() const {

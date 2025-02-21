@@ -6,9 +6,6 @@
 
 int main() {
 
-
-
-
 std::string input;
 std::cout << "Enter expression: ";
 std::getline(std::cin, input);
@@ -20,30 +17,16 @@ try {
     ExpressionTree expr(input);
     INode* root = expr.Parser();
 
-    std::cout<<"rez: " << root->calc() << std::endl;
+    std::cout << "Expression with parentheses: ";
+    root->print(); 
+    std::cout << " = ";
+
+    std::cout<< root->calc() << std::endl;
 
     delete root;
 } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
 }
 
-
-
-    //INode* num1 = new Value(2);
-    //INode* num2 = new Value(3);
-    //INode* sum = new Sum(num1, num2);
-//
-    //sum->print();
-    //std::cout << std::endl;
-    //std::cout << "rez: " << sum->calc() << std::endl; 
-
-
-    //Value val(5.0);
-//
-    //std::cout << "Printing value: ";
-    //val.print();
-    //std::cout << std::endl;
-//
-    //std::cout << "Calculated val: " << val.calc() << std::endl;
     return 0;
 }
