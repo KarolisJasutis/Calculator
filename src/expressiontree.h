@@ -9,6 +9,7 @@ class ExpressionTree {
     public:
         explicit ExpressionTree(const std::string& input);
         INode* Parser();
+        static std::string replaceVariables(const std::string& input);
 
     private:
         std::string input;

@@ -14,9 +14,11 @@ std::cout << "Enter expression: ";
 std::getline(std::cin, input);
 //std::cout << input <<std::endl;
 
+input = ExpressionTree::replaceVariables(input);
+
 try {
     ExpressionTree expr(input);
-    INode* root = expr.AddSub();
+    INode* root = expr.Parser();
 
     std::cout<<"rez: " << root->calc() << std::endl;
 
