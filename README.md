@@ -13,5 +13,5 @@ A simple expression evaluator that supports addition, subtraction, multiplicatio
 - Enter a math expression: a + 3 * b
 - Enter value for a: 5
 - Enter value for b: 2
-- Parsed Expression: (a + (3 * b))
+- Parsed Expression: (5 + (3 * 2))
 - Expression result: 11
